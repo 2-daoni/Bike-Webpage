@@ -110,3 +110,51 @@ header {
 .bike {
   max-width: 80%;
 }
+
+/* ---------------footer 영역------------- */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sci {
+  display: flex;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  color: var(--white-color);
+  font-size: 2em;
+  margin-right: 20px;
+  transition: 0.25s;
+}
+
+.sci li a:hover {
+  color: var(--red-color);
+}
+
+.dots {
+  display: flex;
+}
+
+.dots .dot {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dots .dot.active {
+  background: var(--white-color);
+}
